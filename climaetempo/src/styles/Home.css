@@ -1,0 +1,104 @@
+*{
+    transition-duration: 0.3s;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.pesquisa-titulo {
+    place-self: center center;
+}
+
+.pesquisa-conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.coluna{
+    border: 1px solid black;
+    width: 80%;
+    height: 430px;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-self: center center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px black;
+}
+.busca{
+    display: grid;
+    grid-template-columns: 2.5fr 0.2fr;
+    height: 80px;
+}
+
+.busca-input{
+    height: 20px;
+    place-self: center center;
+    width: 95%;
+}
+
+.lupa{
+    place-self: center left;
+    width: 65%;
+    cursor: pointer;
+}
+
+.lupa:hover{
+    box-shadow: 0px 0px 4px 1px black;
+}
+
+.informacoes{
+    margin: 0 0 0 10px;
+    display: grid;
+}
+
+.titulo{
+    place-self: center center;
+    color: rgb(61, 117, 131);
+}
+
+.direita {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.cidades {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.top{
+    place-self: center center;
+    color: rgb(61, 117, 131);
+}
+
+.buscadas{
+    margin: 5px 0 0 10px;
+}
+
+.recentes{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.ultimas{
+    place-self: center center;
+    color: rgb(61, 117, 131);
+}
+
+.divisao{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.divisao-coluna{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-self: center center;
+}
+
+.urecentes{
+    margin: 20px 20px;
+}
